@@ -9,12 +9,14 @@ Tăng đối đa tổng giá trị (GMV) của công ty và tối ưu hóa chi p
 ![data schema](img/schema.png)
 1) Bảng customers
 * Dữ liệu không có giá trị null
-* Có 5 trường thông tin   
+* Có 5 trường thông tin
+``` 
 0   customer_id               99441 non-null  object
 1   customer_unique_id        99441 non-null  object
 2   customer_zip_code_prefix  99441 non-null  int64 
 3   customer_city             99441 non-null  object
 4   customer_state            99441 non-null  object
+```
 2) Bảng products
 
 3) Bảng geolocation
