@@ -13,8 +13,8 @@ Tăng đối đa tổng giá trị (GMV) của công ty và tối ưu hóa chi p
 ## Báo cáo chi phí 
 1) Tỷ trọng Freight cost so với Item cost
 ## Báo cáo leadtime (tình hình đặt hàng từ lúc order, dự kiến thời gian giao hàng cho khách)
-1) Báo cáo theo dõi đặt h
-1) Thời gian 
+1) Báo cáo theo dõi đặt hàng
+2) Leadtime đặt hàng theo ngành hàng, theo khu vực
 ## Báo cáo review
 Trọng số chấm điểm trên 3 điểm là positive (1), từ 3 điểm trở xuống là negative (0)
 Do một đơn hàng có một/nhiều đánh giá, nên sẽ tính trung bình điểm đánh giá cho từng đơn hàng
