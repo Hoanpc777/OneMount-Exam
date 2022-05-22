@@ -74,6 +74,7 @@ Do một đơn hàng có một/nhiều đánh giá, nên sẽ tính trung bình 
 5) Bảng orders
 * Có 8 trường thông tin, có các giá trị NaN tùy thuộc vào "order_status"
 * Trường "order_id" là unique
+* Đơn hàng đặt không có thông tin sản phẩm, phải mapping từ order_items
 ```
  0   order_id                       99441 non-null  object
  1   customer_id                    99441 non-null  object
