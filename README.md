@@ -4,6 +4,26 @@ https://drive.google.com/file/d/1R6TFr2aCmouWRQx8LoxZFrw4TF2lj7K3/view?usp=shari
 ```
 # Mục tiêu
 Tăng đối đa tổng giá trị (GMV) của công ty và tối ưu hóa chi phí
+# Nội dung
+## Báo cáo doanh số
+1) Doanh số theo khách hàng và khu vực
+2) Doanh số theo ngành hàng
+3) Doanh số theo hình thức payments
+4) Doanh số theo tháng
+## Báo cáo chi phí 
+1) Tỷ trọng Freight cost so với Item cost
+## Báo cáo leadtime (tình hình đặt hàng từ lúc order, dự kiến thời gian giao hàng cho khách)
+1) Báo cáo theo dõi đặt h
+1) Thời gian 
+## Báo cáo review
+Trọng số chấm điểm trên 3 điểm là positive (1), từ 3 điểm trở xuống là negative (0)
+Do một đơn hàng có một/nhiều đánh giá, nên sẽ tính trung bình điểm đánh giá cho từng đơn hàng
+* Tỷ trọng negative/positive
+* Đánh giá doanh thu theo ngành hàng phân loại theo điểm đánh giá
+
+## Báo cáo khách hàng
+1) Khách hàng theo thành phố, theo bang (số lượng)
+
 # EDA dữ liệu
 ## Khám phá dữ liệu (explore)
 ![data schema](img/schema.png)
@@ -98,3 +118,4 @@ Tăng đối đa tổng giá trị (GMV) của công ty và tối ưu hóa chi p
  3   payment_installments  103886 non-null  int64  
  4   payment_value         103886 non-null  float64
 ```
+## Khám phá dữ liệu (explore)
