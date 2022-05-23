@@ -149,7 +149,7 @@ Chi phí phát sinh liên quan đến (Foods, Construction, Cars, Others, Securi
 Về cơ bản, khi giá price tăng thì có xu hướng chi phí vận chuyển tăng.
 Ngoài ra, chi phí vận chuyển chủ yếu dưới $100 đô, cho các đơn hàng dưới $1000.
 
-**3) Báo cáo leadtime (tình hình đặt hàng từ lúc order, dự kiến thời gian giao hàng cho khách)**
+**3) Báo cáo leadtime (tình hình đặt hàng từ lúc order đến khi giao hàng thành công)**
 * Thời gian theo dõi đặt hàng bình quân (giờ)
 ![data schema](img/leadtime1.PNG)
 Theo thống kê, thời gian khách ấn đặt hàng đến lúc hệ thống xác nhận đơn trung bình là 9 tiếng, khá là chậm khi so với công nghệ hiện nay.
