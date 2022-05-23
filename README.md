@@ -177,7 +177,7 @@ Còn thời gian giao hàng từ 800 - 2000 giờ tương ứng 1 hay nhiều th
 Như vậy, cần có chiến lược về thay đổi cách thức giao hàng để tăng tỷ lệ kéo giữ khách hàng.
 * Đánh giá doanh thu theo ngành hàng phân loại theo điểm đánh giá
 ![data schema](img/review3.png)
-Doanh số ngành hàng (Home, Entertainment,Accessories) nằm top 3 nhưng mức độ tương đối giữa doanh số từ đánh giá tiêu cực đang chiếm khoảng hơn 1/3 so với doanh số từ đánh giá tích cực.
+Doanh số ngành hàng (Home, Entertainment, Accessories) nằm top 3 nhưng doanh số từ đánh giá tiêu cực đang chiếm khoảng hơn 1/3 so với doanh số từ đánh giá tích cực.
 
 **5) Báo cáo khách hàng**
 * Tỷ trọng khách hàng theo bang tính theo số lượng đơn và doanh thu
@@ -196,5 +196,5 @@ Mặc dù doanh thu đang có tốc độ tăng trưởng khá ổn định. Tuy
 * Sản phẩm: Đa dạng hóa nguồn thu đến từ các ngành khác đang có mức doanh thu trung bình so với mặt bằng các loại sản phẩm (Education, Office, Foods) do vẫn còn dư địa phát triển.
 * Hệ thống đặt hàng: Cải thiện chất lượng hạ tầng, để giảm độ trễ hệ thống, cải thiện theo dõi tình hình hàng tồn, góp phần giảm thời gian xác nhận đơn để nhanh chóng giao hàng cho đơn vị vận chuyển.
 * Vận chuyển: Làm việc với bên vận chuyển để tối ưu quãng đường giao, trình tự giao hàng, góp phần giảm thời gian chờ hàng của khách.
-* Khách hàng: Liên tục chăm sóc khách hàng đang tái mua hàng của công ty, đồng thời tăng dịch vụ khuyến mãi, chính sách khác để tăng tỷ lệ gia hạn mua hàng của khách hàng.
+* Khách hàng: Liên tục chăm sóc khách hàng đang tái mua hàng của công ty, đồng thời liên tục thu thập khảo sát, tăng dịch vụ khuyến mãi và chính sách khác để tăng tỷ lệ gia hạn mua hàng của khách hàng.
 ```
