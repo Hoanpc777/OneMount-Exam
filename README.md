@@ -127,10 +127,10 @@ Do một đơn hàng có một/nhiều đánh giá, nên sẽ tính trung bình 
 **1) Báo cáo doanh số (Doanh số dựa trên giá và chi phí vận chuyển)**
 * Doanh số theo tháng
 ![data schema](img/rev1.PNG)
-Doanh số cơ bản tăng trưởng dương theo thời gian, mặc dù không phải số lũy kế, chứng minh tình hình triển vọng của công ty.
+Doanh số cơ bản tăng trưởng dương theo thời gian (tháng), chứng minh tình hình triển vọng của công ty.
 * Doanh số theo khu vực và ngành hàng
 ![data schema](img/rev2.PNG)
-- Về khu vực, bang SP có tỷ trọng doanh số lớn sau, sau đó lần lượt các bang RJ-MG. Các bang còn lại không có chênh lệch về doanh số.
+- Về khu vực, bang SP có tỷ trọng doanh số lớn nhất, sau đó lần lượt các bang RJ-MG. Các bang còn lại không có chênh lệch về doanh số.
 - Về ngành hàng, tỷ trọng doanh số đến từ ngành liên quan mua sắm nhà cửa chiếm nhiều nhất với hơn 28%, tiếp đến là giải trí (23,6%) và thời trang (18%), sau đó là giáo dục và chăm sóc sức khỏe và một số ngành lĩnh vực khác.
 
 **2) Báo cáo chi phí (Chi phí dựa trên price và chi phí vận chuyển)**
@@ -143,10 +143,10 @@ Mức độ giảm dần về chi phí khi so sánh tương đối với quãng 
 ```
 Entertainment, Health cares, Home, Accessories, Education, Office, Foods, Construction, Cars, Others, Security
 ```
-Chi phí phát sinh liên quan đến (Foods, Construction, Cars, Others, Security) thì khách hàng thường mua gần nhà. Còn chi tiêu cho (Entertainment, Health cares, Home, Accessories) thì khách hàng ít chú trọng hơn về khoảng cách.
+Chi phí phát sinh liên quan đến (Foods, Construction, Cars, Others, Security) thì khách hàng có xu hướng mua gần nhà. Còn chi tiêu cho (Entertainment, Health cares, Home, Accessories) thì khách hàng ít chú trọng hơn về khoảng cách.
 * Tỷ trọng Freight cost so với Item cost
 ![data schema](img/cp3.PNG)
-Về cơ bản, khi giá price tăng thì có xu hướng chi phí vận chuyển tăng.
+Về cơ bản, khi giá (biến "price") tăng thì có xu hướng chi phí vận chuyển (biến "freight_value") tăng.
 Ngoài ra, chi phí vận chuyển chủ yếu dưới $100 đô, cho các đơn hàng dưới $1000.
 
 **3) Báo cáo leadtime (tình hình đặt hàng từ lúc order đến khi giao hàng thành công)**
@@ -190,3 +190,11 @@ Tỷ lệ khách hàng quay lại mua khoảng 10%.
 ![data schema](img/cus3.png)
 Đối với top 3 bang có số lượng khách hàng cao nhất, thì tỷ lệ mua lần 2 trở lên là khoảng 10%. Bang AL có tỷ lệ quay lại thấp nhất là 5,84% và bang AP có tỷ lệ cao nhất là 14,71% là 2 bang nằm trong thiểu số các bang có số khách hàng mua thấp (phân loại vào Others).
 
+# Kết luận
+```
+Mặc dù doanh thu đang có tốc độ tăng trưởng khá ổn định. Tuy nhiên cần cải thiện một số vấn đề sau:
+* Sản phẩm: Đa dạng hóa nguồn thu đến từ các ngành khác đang có mức doanh thu trung bình so với mặt bằng các loại sản phẩm (Education, Office, Foods) do vẫn còn dư địa phát triển.
+* Hệ thống đặt hàng: Cải thiện chất lượng hạ tầng, để giảm độ trễ hệ thống, cải thiện theo dõi tình hình hàng tồn, góp phần giảm thời gian xác nhận đơn để nhanh chóng giao hàng cho đơn vị vận chuyển.
+* Vận chuyển: Làm việc với bên vận chuyển để tối ưu quãng đường giao, trình tự giao hàng, góp phần giảm thời gian chờ hàng của khách.
+* Khách hàng: Liên tục chăm sóc khách hàng đang tái mua hàng của công ty, đồng thời tăng dịch vụ khuyến mãi, chính sách khác để tăng tỷ lệ gia hạn mua hàng của khách hàng.
+```
