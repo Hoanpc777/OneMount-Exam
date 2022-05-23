@@ -189,7 +189,9 @@ Tỷ trọng khách hàng từ các bang (SP,RJ,MG) chiếm tỷ trọng trên 6
 Tỷ lệ khách hàng quay lại mua khoảng 10%.
 ![data schema](img/cus3.png)
 Đối với top 3 bang có số lượng khách hàng cao nhất, thì tỷ lệ mua lần 2 trở lên là khoảng 10%. Bang AL có tỷ lệ quay lại thấp nhất là 5,84% và bang AP có tỷ lệ cao nhất là 14,71% là 2 bang nằm trong thiểu số các bang có số khách hàng mua thấp (phân loại vào Others).
-
+* Hình thức thanh toán của khách hàng
+![data schema](img/cus4.png)
+Dựa vào biểu đồ, khách hàng chủ yếu thanh toán qua hình thức thẻ tín dụng credit card (73,9%); tiếp đến là boleto (ticket) với 19% và còn lại là 7% với các hình thức thanh toán khác.
 # Kết luận
 ```
 Mặc dù doanh thu đang có tốc độ tăng trưởng khá ổn định. Tuy nhiên cần cải thiện một số vấn đề sau:
