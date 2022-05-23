@@ -127,10 +127,10 @@ Do một đơn hàng có một/nhiều đánh giá, nên sẽ tính trung bình 
 **1) Báo cáo doanh số (Doanh số dựa trên giá và chi phí vận chuyển)**
 * Doanh số theo tháng
 ![data schema](img/rev1.PNG)
-Doanh số cơ bản tăng trưởng dương theo thời gian, mặc dù không phải số lũy kế, chứng minh tình hình triển vọng của công ty
+Doanh số cơ bản tăng trưởng dương theo thời gian, mặc dù không phải số lũy kế, chứng minh tình hình triển vọng của công ty.
 * Doanh số theo khu vực và ngành hàng
 ![data schema](img/rev2.PNG)
-- Về khu vực, bang SP có tỷ trọng doanh số lớn sau, sau đó lần lượt các bang RJ-MG. Các bang còn lại không có chênh lệch về doanh số
+- Về khu vực, bang SP có tỷ trọng doanh số lớn sau, sau đó lần lượt các bang RJ-MG. Các bang còn lại không có chênh lệch về doanh số.
 - Về ngành hàng, tỷ trọng doanh số đến từ ngành liên quan mua sắm nhà cửa chiếm nhiều nhất với hơn 28%, tiếp đến là giải trí (23,6%) và thời trang (18%), sau đó là giáo dục và chăm sóc sức khỏe và một số ngành lĩnh vực khác.
 
 **2) Báo cáo chi phí (Chi phí dựa trên price và chi phí vận chuyển)**
@@ -143,7 +143,7 @@ Mức độ giảm dần về chi phí khi so sánh tương đối với quãng 
 ```
 Entertainment, Health cares, Home, Accessories, Education, Office, Foods, Construction, Cars, Others, Security
 ```
-Chi phí phát sinh liên quan đến (Foods, Construction, Cars, Others, Security) thì khách hàng thường mua gần nhà. Còn chi tiêu cho (Entertainment, Health cares, Home, Accessories) thì khách hàng ít chú trọng hơn về khoảng cách
+Chi phí phát sinh liên quan đến (Foods, Construction, Cars, Others, Security) thì khách hàng thường mua gần nhà. Còn chi tiêu cho (Entertainment, Health cares, Home, Accessories) thì khách hàng ít chú trọng hơn về khoảng cách.
 * Tỷ trọng Freight cost so với Item cost
 ![data schema](img/cp3.PNG)
 Về cơ bản, khi giá price tăng thì có xu hướng chi phí vận chuyển tăng.
@@ -158,9 +158,9 @@ Thời gian vận chuyển đến khi giao đến tay khách là 228 tiếng tư
 Tổng thời gian trung bình là 306 tiếng tương ứng 12,75 ngày. Con số này khá cao, khi sản phẩm mang giá trị doanh số cao đến từ ngành (Home, Entertainment, Accessories), là những ngành hàng có tốc độ lưu chuyển nhanh vì sản phẩm đa dạng và dễ vận chuyển.
 * Leadtime đặt hàng theo ngành hàng
 ![data schema](img/leadtime2.png)
-Thời gian đặt đơn đến lúc duyệt đơn khá đều giữa các ngành, tuy nhiên lâu nhất là Security và Office
-Thời gian duyệt đơn đến lúc giao vận chuyển, cao nhất là ngành Office, còn các ngành còn lại khá đồng đều
-Thời gian vận chuyển đến lúc về tay khách hàng, có sự đồng đều giữa các ngành, trung bình khoảng 9,5 ngày
+Thời gian đặt đơn đến lúc duyệt đơn khá đều giữa các ngành, tuy nhiên lâu nhất là Security và Office.
+Thời gian duyệt đơn đến lúc giao vận chuyển, cao nhất là ngành Office, còn các ngành còn lại khá đồng đều.
+Thời gian vận chuyển đến lúc về tay khách hàng, có sự đồng đều giữa các ngành, trung bình khoảng 9,5 ngày.
 * Thời gian leadtime trung bình theo km
 ![data schema](img/leadtime3.png)
 Về cơ bản, có xu hướng tăng dần giữa quãng đường và tổng thời gian giao hàng tính từ lúc đặt đơn đến khi giao thành công.
@@ -169,7 +169,7 @@ Tổng thời gian trung bình giao hàng vào khoảng 140-400 giờ cho các �
 **4) Báo cáo review**
 * Tỷ trọng positive/negative
 ![data schema](img/review1.png)
-Tỷ trọng số đơn hàng chấm điểm tích cực là 75%
+Tỷ trọng số đơn hàng chấm điểm tích cực là 75%.
 * Chấm điểm đơn hàng dựa trên thời gian giao hàng
 ![data schema](img/review2.png)
 Nhìn biểu đồ, có thể thấy đơn hàng giao nhanh sẽ mang lại đánh giá tích cực từ phía khách hàng, chưa đánh giá yếu tố chất lượng sản phẩm; mặc dù vẫn có vài đơn hàng giao lâu, giá tiền thấp nhưng khách hàng vẫn chấm điểm tốt.
@@ -186,7 +186,7 @@ Tỷ trọng khách hàng từ các bang (SP,RJ,MG) chiếm tỷ trọng trên 6
 
 * Tỷ lệ khách hàng mua lại (retention rate)
 ![data schema](img/cus2.png)
-Tỷ lệ khách hàng quay lại mua khoảng 10%
+Tỷ lệ khách hàng quay lại mua khoảng 10%.
 ![data schema](img/cus3.png)
 Đối với top 3 bang có số lượng khách hàng cao nhất, thì tỷ lệ mua lần 2 trở lên là khoảng 10%. Bang AL có tỷ lệ quay lại thấp nhất là 5,84% và bang AP có tỷ lệ cao nhất là 14,71% là 2 bang nằm trong thiểu số các bang có số khách hàng mua thấp (phân loại vào Others).
 
