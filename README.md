@@ -181,8 +181,8 @@ Doanh số ngành hàng (Home, Entertainment,Accessories) nằm top 3 nhưng m�
 Tỷ trọng khách hàng từ các bang (SP,RJ,MG) chiếm tỷ trọng trên 60% tổng khách hàng của công ty, với cao nhất là bang SP với tỷ trọng trên 35%.
 
 * Tỷ lệ khách hàng mua lại (retention rate)
-![data schema](img/cus1.png)
+![data schema](img/cus2.png)
 Tỷ lệ khách hàng quay lại mua khoảng 10%
-![data schema](img/cus1.png)
+![data schema](img/cus3.png)
 Đối với top 3 bang có số lượng khách hàng cao nhất, thì tỷ lệ mua lần 2 trở lên là khoảng 10%. Bang AL có tỷ lệ quay lại thấp nhất là 5,84% và bang AP có tỷ lệ cao nhất là 14,71% là 2 bang nằm trong thiểu số các bang có số khách hàng mua thấp (phân loại vào Others).
 
