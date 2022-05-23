@@ -132,7 +132,7 @@ Doanh số cơ bản tăng trưởng dương theo thời gian, mặc dù không 
 ![data schema](img/rev2.PNG)
 - Về khu vực, bang SP có tỷ trọng doanh số lớn sau, sau đó lần lượt các bang RJ-MG. Các bang còn lại không có chênh lệch về doanh số
 - Về ngành hàng, tỷ trọng doanh số đến từ ngành liên quan mua sắm nhà cửa chiếm nhiều nhất với hơn 28%, tiếp đến là giải trí (23,6%) và thời trang (18%), sau đó là giáo dục và chăm sóc sức khỏe và một số ngành lĩnh vực khác.
-2) Báo cáo chi phí (Chi phí dựa trên price và chi phí vận chuyển)
+**2) Báo cáo chi phí (Chi phí dựa trên price và chi phí vận chuyển)**
 * Phân bổ chi phí theo số lượng đơn
 ![data schema](img/cp1.PNG)
 Về cơ bản, chi phí (giá bán) tập trung cho đơn hàng khoảng từ 0-200, và những đơn hàng có giá từ 100-200 chỉ bằng khoảng 50% so với đơn hàng 0-100.
@@ -147,7 +147,7 @@ Chi phí phát sinh liên quan đến (Foods, Construction, Cars, Others, Securi
 ![data schema](img/cp3.PNG)
 Về cơ bản, khi giá price tăng thì có xu hướng chi phí vận chuyển tăng.
 Ngoài ra, chi phí vận chuyển chủ yếu dưới $100 đô, cho các đơn hàng dưới $1000. 
-3) Báo cáo leadtime (tình hình đặt hàng từ lúc order, dự kiến thời gian giao hàng cho khách)
+**3) Báo cáo leadtime (tình hình đặt hàng từ lúc order, dự kiến thời gian giao hàng cho khách)**
 * Thời gian theo dõi đặt hàng bình quân (giờ)
 ![data schema](img/leadtime1.PNG)
 Theo thống kê, thời gian khách ấn đặt hàng đến lúc hệ thống xác nhận đơn trung bình là 9 tiếng, khá là chậm khi so với công nghệ hiện nay.
@@ -163,7 +163,7 @@ Thời gian vận chuyển đến lúc về tay khách hàng, có sự đồng �
 ![data schema](img/leadtime3.png)
 Về cơ bản, có xu hướng tăng dần giữa quãng đường và tổng thời gian giao hàng tính từ lúc đặt đơn đến khi giao thành công.
 Tổng thời gian trung bình giao hàng vào khoảng 140-400 giờ cho các đơn hàng dưới 2700km
-4) Báo cáo review
+**4) Báo cáo review**
 * Tỷ trọng positive/negative
 ![data schema](img/review1.png)
 Tỷ trọng số đơn hàng chấm điểm tích cực là 75%
@@ -175,7 +175,7 @@ Như vậy, cần có chiến lược về thay đổi cách thức giao hàng �
 * Đánh giá doanh thu theo ngành hàng phân loại theo điểm đánh giá
 ![data schema](img/review3.png)
 Doanh số ngành hàng (Home, Entertainment,Accessories) nằm top 3 nhưng mức độ tương đối giữa doanh số từ đánh giá tiêu cực đang chiếm khoảng hơn 1/3 so với doanh số từ đánh giá tích cực.
-5) Báo cáo khách hàng
+**5) Báo cáo khách hàng**
 * Tỷ trọng khách hàng theo bang tính theo số lượng đơn và doanh thu
 ![data schema](img/cus1.png)
 Tỷ trọng khách hàng từ các bang (SP,RJ,MG) chiếm tỷ trọng trên 60% tổng khách hàng của công ty, với cao nhất là bang SP với tỷ trọng trên 35%.
