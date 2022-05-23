@@ -201,3 +201,8 @@ Mặc dù doanh thu đang có tốc độ tăng trưởng khá ổn định. Tuy
 * Vận chuyển: Làm việc với bên vận chuyển để tối ưu quãng đường giao, trình tự giao hàng, góp phần giảm thời gian chờ hàng của khách.
 * Khách hàng: Liên tục chăm sóc khách hàng đang tái mua hàng của công ty, đồng thời liên tục thu thập khảo sát, tăng dịch vụ khuyến mãi và chính sách khác để tăng tỷ lệ gia hạn mua hàng của khách hàng.
 ```
+**Link đính kèm Power BI**
+```
+https://app.powerbi.com/view?r=eyJrIjoiYzlhM2UxYWItZDJiOS00MmVjLTk1ZmYtNmRjNDY4OGE2MDIxIiwidCI6IjYyODY2ZjAxLTg2ZDAtNDhhZC05ZDMzLWZkZWVkNjczNjhiYyIsImMiOjEwfQ%3D%3D
+```
+*Signature: Phan Công Hoàn*
