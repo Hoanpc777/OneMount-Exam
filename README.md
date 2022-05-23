@@ -192,6 +192,7 @@ Tỷ lệ khách hàng quay lại mua khoảng 10%.
 * Hình thức thanh toán của khách hàng
 ![data schema](img/cus4.png)
 Dựa vào biểu đồ, khách hàng chủ yếu thanh toán qua hình thức thẻ tín dụng credit card (73,9%); tiếp đến là boleto (ticket) với 19% và còn lại là 7% với các hình thức thanh toán khác.
+Việc duy trì thanh toán online, giúp cho thanh toán nhanh chóng và dễ dàng xử lý các khiếu nại.
 # Kết luận
 ```
 Mặc dù doanh thu đang có tốc độ tăng trưởng khá ổn định. Tuy nhiên cần cải thiện một số vấn đề sau:
