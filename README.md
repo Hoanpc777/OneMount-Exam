@@ -124,7 +124,7 @@ Do một đơn hàng có một/nhiều đánh giá, nên sẽ tính trung bình 
  4   payment_value         103886 non-null  float64
 ```
 ## Báo cáo phân tích
-** 1) Báo cáo doanh số (Doanh số dựa trên giá và chi phí vận chuyển) **
+**1) Báo cáo doanh số (Doanh số dựa trên giá và chi phí vận chuyển)**
 * Doanh số theo tháng
 ![data schema](img/rev1.PNG)
 Doanh số cơ bản tăng trưởng dương theo thời gian, mặc dù không phải số lũy kế, chứng minh tình hình triển vọng của công ty
